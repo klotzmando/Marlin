@@ -1,0 +1,51 @@
+Communication timeout while idle, trying to trigger response from printer. Configure long running commands or increase communication timeout if that happens regularly on specific commands or long moves.
+Recv: echo:V76 stored settings retrieved (629 bytes; crc 29112)
+Recv: Unified Bed Leveling System v1.01 inactive
+Recv: 
+Recv: Unified Bed Leveling initialized.
+Recv: 
+Recv: Mesh loaded from slot 1
+Recv: Mesh 1 loaded from storage.
+Recv: echo:  G21    ; Units in mm (mm)
+Recv: echo:  M149 C ; Units in Celsius
+Recv: 
+Recv: echo:; Filament settings: Disabled
+Recv: echo:  M200 D1.75
+Recv: echo:  M200 D0
+Recv: echo:; Steps per unit:
+Recv: echo: M92 X80.00 Y80.00 Z400.00 E93.00
+Recv: echo:; Maximum feedrates (units/s):
+Recv: echo:  M203 X500.00 Y500.00 Z5.00 E25.00
+Recv: echo:; Maximum Acceleration (units/s2):
+Recv: echo:  M201 X500.00 Y500.00 Z100.00 E5000.00
+Recv: echo:; Acceleration (units/s2): P<print_accel> R<retract_accel> T<travel_accel>
+Recv: echo:  M204 P500.00 R500.00 T500.00
+Recv: echo:; Advanced: B<min_segment_time_us> S<min_feedrate> T<min_travel_feedrate> J<junc_dev>
+Recv: echo:  M205 B20000.00 S0.00 T0.00 J0.08
+Recv: echo:; Home offset:
+Recv: echo:  M206 X0.00 Y0.00 Z0.00
+Recv: echo:; Unified Bed Leveling:
+Recv: echo:  M420 S0 Z10.00
+Recv: 
+Recv: Unified Bed Leveling System v1.01 inactive
+Recv: 
+Recv: echo:; Active Mesh Slot: 1
+Recv: echo:; EEPROM can hold 8 meshes.
+Recv: 
+Recv: echo:; Material heatup parameters:
+Recv: echo:  M145 S0 H185 B45 F255
+Recv: echo:  M145 S1 H240 B65 F255
+Recv: echo:; PID settings:
+Recv: echo:  M301 P21.73 I1.54 D76.55
+Recv: echo:  M304 P170.26 I30.82 D627.00
+Recv: echo:; Z-Probe Offset (mm):
+Recv: echo:  M851 X-48.00 Y-10.00 Z-2.20
+Recv: echo:; Stepper driver current:
+Recv: echo:  M906 X580 Y580 Z580
+Recv: echo:  M906 T0 E650
+Recv: 
+Recv: echo:; Driver stepping mode:
+Recv: echo:  M569 S1 X Y Z
+Recv: echo:  M569 S1 T0 E
+Recv: echo:; Filament load/unload lengths:
+Recv: echo:  M603 L0.00 U100.00
